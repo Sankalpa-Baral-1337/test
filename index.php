@@ -3,6 +3,6 @@
 
 $search = $_GET['search'];
 
-echo $search;
+echo htmlentities($search);
 
 ?>
